@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-	int score,i,n,A=0,B=0,C=0,D=0,F;
+	int score,A=0,B=0,C=0,D=0,F=0;
 	scanf("%d",&score);
 	while (score != -1){	
 		if(score>=0&&score<=100){
@@ -43,4 +43,5 @@ int main(void){
 	printf("A(%d)\nB(%d)\nC(%d)\nD(%d)\nF(%d)",A,B,C,D,F);
 	return 0;
 	
+
 }
